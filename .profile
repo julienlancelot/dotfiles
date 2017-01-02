@@ -13,7 +13,7 @@ export LANG=en_US.UTF-8
 
 export JAVA_OPTIONS=-Djava.awt.headless=true
 
-export GITHUB_TOKEN=68730cb6a396f9fff1bf3a4c35bf31ddd0ef0820
+
 
 export M2_HOME=/opt/apache-maven
 export M2=$M2_HOME/bin
@@ -57,6 +57,8 @@ alias mvnfullsserver='mvn clean install -B -e -V -T0.5C -DforkCount=0.5C -Denfor
 alias cpGov='cp ~/.m2/repository/com/sonarsource/governance/sonar-governance-plugin/1.1-SNAPSHOT/sonar-governance-plugin-1.1-SNAPSHOT.jar ~/Dev/Utils/sonarqube-5.6/extensions/downloads/'
 
 alias lowestVol='osascript -e "set Volume 0.01"'
+
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 
 #### GIT ##### 
